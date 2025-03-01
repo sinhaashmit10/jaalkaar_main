@@ -18,7 +18,7 @@ import TussarCollection from './Components/TussarCollection'
 import CottonCollection from './Components/CottonCollection'
 import StoleCollection from './Components/StoleCollection'
 import DupattaCollection from './Components/DupattaCollection'
-// import Verify from './Pages/Verify'
+import Verify from './Pages/Verify'
 
 const App = () => {
   return (
@@ -36,7 +36,7 @@ const App = () => {
         <Route path='/login' element = {<Login/>} />
         <Route path='/place-order' element = {<PlaceOrder/>} />
         <Route path='/orders' element = {<Orders/>} />
-        {/* <Route path='/verify' element = {<Verify/>} /> */}
+        <Route path='/verify' element = {<Verify/>} />
         <Route path='/tussar-collection' element = {<TussarCollection/>} />
         <Route path='/cotton-collection' element = {<CottonCollection/>} />
         <Route path='/stoles-scarves' element = {<StoleCollection/>} />
